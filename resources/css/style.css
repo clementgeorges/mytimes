@@ -41,17 +41,22 @@ nav {
 .column-large,
 .column-medium,
 .column-small {
-  margin-right: 32px;
+  margin-right:;
   font-family: Georgia;
   font-size: 17px;
+  display: flex;
+  flex-direction: column;
 }
 
 .column-large {
   width: 630px;
+
+  margin-right: 32px;
 }
 
 .column-medium {
-  width: 300px
+  width: 300px;
+  margin-right: 32px;
 }
 
 .column-small {
@@ -87,6 +92,24 @@ nav {
 
 .med-2 {
   background-image: url("../images/img-story-1.png");
+}
+
+.lar-3456 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  align-items: flex-end;
+}
+
+.lar-block-story-1,
+.lar-block-story-2 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.lar-3 {
+  height: 246px
 }
 
 .column-large,

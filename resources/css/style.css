@@ -2,13 +2,15 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   width: 100%;
   border-bottom: 1px solid black;
   position: fixed;
   z-index: 1;
   background-color: white;
+  padding: 10px 10px;
+  margin-top: -8px;
 }
 
 .logo {
@@ -20,15 +22,15 @@ header {
 .title {
   color: MediumAquamarine;
   width: 865px;
+  display: flex;
 }
 
 nav a {
   padding: 20px 10px;
-
+  color: black;
 }
 
-nav {
-  display: flex;
+header nav {
 }
 
 .BodyContainer {
@@ -112,18 +114,80 @@ nav {
   height: 246px
 }
 
-.column-large,
-.column-medium,
-.column-small,
-.lar-1,
-.lar-2,
-.lar-3,
-.lar-4,
-.lar-5,
-.lar-6,
-.med-1,
-.med-2,
-.med-3,
 .sma-1 {
-  border: 1px solid black;
+  flex-direction: column;
+  display: flex;
+  margin-right: 32px;
+  width: 240px;
+
+}
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
+}
+
+.NbHead {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 41px;
+}
+
+.maintext{
+  margin: 70px 20px;
+  display: block;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  flex-direction: column;
+}
+
+footer .logotitle {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+}
+
+.logotitile2 {
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+  font-weight: normal;
+  font-family: Verdana
+}
+
+.copy {
+  display: block;
+}
+
+footer nav a {
+  color: black;
+  font-size: 12px;
+}
+
+footer nav span {
+  display: inline-block;
+  padding-bottom: 20px;
 }
